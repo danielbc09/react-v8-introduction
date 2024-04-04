@@ -31,6 +31,24 @@ Complete Intro to React V8, Frontend Masters
     - Pass props to child component.
 
 
+## Lesson 5: JSX
+
+    - Using JSX to render components.
+    - install npm.
+        npm init -y
+    - Using and configure Prettier.
+        npm i -D prettier@2.7.1
+
+## Lesson 6: Set up Eslint and Gitignore
+    - Set up Eslint and Gitignore
+    - npm i -d eslint@8.24.0 eslint-config-prettier@8.5.0
+
+## Lesson 6: Set up Vite and react
+
+    - Install vite
+        npm i -D vite@3.1.4 @vitejs/plugin-react@2.1.0 --legacy-peer-deps.
+    - Install react 18.2.0    
+
 ###### Resources
 
 -- Course notes https://react-v8.holt.courses/lessons/welcome/intro
