@@ -64,12 +64,40 @@ Complete Intro to React V8, Frontend Masters
     - Let's add the ESLint rule. 
         npm i -D eslint-plugin-react-hooks@4.6.0
 
-## Lesson 14: Effects
+## Lesson 14: Effects and customs Hooks
 
     - useEffect 
         useEffect allows you to say do a render of this component first so the user can see something then as soon as the render is done, then do something.
      - use custom Hooks.   
         useBreedList
+
+## Lesson 16: Handling user Input and COMPONENT COMPOSITION
+
+    -  Handling user input.
+    -  Make subcomponts.
+        - Recommendation: Don't decompose too much.
+
+## Lesson 16: Dev Tools
+
+    - NODE_ENV=development.
+    - Strict Mode
+    - Dev Tools
+        React has wonderful dev tools that the core team maintains.
+
+## Lesson 17: React Router
+
+    - React Router is by far the most popular client side router in the React community. It is mature, being used by big companies, and battle tested at large scales.
+    - npm i react-router-dom@6.4.1
+
+    - https://react-v8.holt.courses/lessons/react-capabilities/react-router
+
+## Lesson 22: React Query
+
+    - Right now react query is a must !
+    - The idea behind React is that you want to cache most of what you fetch from a database. 
+    - npm install @tanstack/react-query@4.10.1
+    - how to fetch with react query.
+    
 ###### Resources
 
 -- Course notes https://react-v8.holt.courses/lessons/welcome/intro
