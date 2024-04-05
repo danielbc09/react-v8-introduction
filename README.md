@@ -48,7 +48,28 @@ Complete Intro to React V8, Frontend Masters
     - Install vite
         npm i -D vite@3.1.4 @vitejs/plugin-react@2.1.0 --legacy-peer-deps.
     - Install react 18.2.0    
+        npm install react@18.2.0 react-dom@18.2.0
+## Lesson 7: React Core Concepts.
 
+    - ESLint + React 
+
+         npm install -D eslint-plugin-import@2.26.0 eslint-plugin-jsx-a11y@6.6.1 eslint-plugin-react@7.31.8
+
+## Lesson 10
+   
+    - Hooks in react
+        https://react-v8.holt.courses/lessons/core-react-concepts/hooks
+    - How react render.
+    - They have to be called in the same order, not inside ifs or conditionals.
+    - Let's add the ESLint rule. 
+        npm i -D eslint-plugin-react-hooks@4.6.0
+
+## Lesson 14: Effects
+
+    - useEffect 
+        useEffect allows you to say do a render of this component first so the user can see something then as soon as the render is done, then do something.
+     - use custom Hooks.   
+        useBreedList
 ###### Resources
 
 -- Course notes https://react-v8.holt.courses/lessons/welcome/intro
