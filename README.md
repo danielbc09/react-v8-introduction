@@ -97,7 +97,16 @@ Complete Intro to React V8, Frontend Masters
     - The idea behind React is that you want to cache most of what you fetch from a database. 
     - npm install @tanstack/react-query@4.10.1
     - how to fetch with react query.
+
+## Lesson 24 : Refactor 
+
+    - Refactor useBreedList to see react query simplicity.
+    - If it is possible, avoid useEffect.
+
+## Lesson 25 : Uncontrolled Forms
     
+    - We do have a controlled input on animal to properly have it determine the useBreedList animal. But we're not using the controlled input to submit the form, we're just using the form event anyway
+
 ###### Resources
 
 -- Course notes https://react-v8.holt.courses/lessons/welcome/intro
