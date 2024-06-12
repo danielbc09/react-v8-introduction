@@ -103,9 +103,23 @@ Complete Intro to React V8, Frontend Masters
     - Refactor useBreedList to see react query simplicity.
     - If it is possible, avoid useEffect.
 
+
 ## Lesson 25 : Uncontrolled Forms
     
     - We do have a controlled input on animal to properly have it determine the useBreedList animal. But we're not using the controlled input to submit the form, we're just using the form event anyway
+
+## Lesson 26 : Class Components
+    
+    - Class components have lifecycle methods. These for the most part are what useEffect does for function components. They're for doing things like making API calls, starting and ending
+
+## Lesson 28 : Error Boundaries
+
+    - Frequently there's errors with APIs with malformatted or otherwise weird data.
+    - This is something you can't do with hooks so if you needed this sort of functionality you'd have to use a class component.
+
+## Lesson 29 : PORTALS AND REFS
+
+    - Another nice feature React is something called a Portal. You can think of the portal as a separate mount point (the actual DOM node which your app is put into) for your React app. 
 
 ###### Resources
 
