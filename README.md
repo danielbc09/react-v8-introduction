@@ -120,10 +120,16 @@ Complete Intro to React V8, Frontend Masters
 ## Lesson 29 : PORTALS AND REFS
 
     - Another nice feature React is something called a Portal. You can think of the portal as a separate mount point (the actual DOM node which your app is put into) for your React app. 
+    - Refs are like instance variables for function components. Whereas on a class you'd say this.myVar to refer to an instance variable, with function components you can use refs. 
+        They're containers of state that live outside a function's closure state which means anytime I refer to elRef
+    - Implement modal with portals..
 
+## Lesson 31 : Context 
+    -  Context is like state, but instead of being confined to a component, it's global to your application. It's application-level state. This is dangerous. Avoid using context until you have to use it.
 ###### Resources
 
 -- Course notes https://react-v8.holt.courses/lessons/welcome/intro
+-- https://react-v8.holt.courses/
 -- Course repo https://github.com/btholt/complete-intro-to-react-v8
 -- Course Github https://github.com/btholt/citr-v8-project/tree/main/01-no-frills-react
 
